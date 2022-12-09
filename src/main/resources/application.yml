@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: demo
+datasources:
+  default:
+    driverClassName: org.mariadb.jdbc.Driver
+    db-type: mariadb
+netty:
+  default:
+    allocator:
+      max-order: 3
