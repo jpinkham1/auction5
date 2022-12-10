@@ -9,13 +9,21 @@ version = "0.1"
 group = "com.togetherauction"
 
 repositories {
+    mavenLocal()
     mavenCentral()
+    maven { url "https://jcenter.bintray.com" } // expired 2/1/22
+    maven { url "https://dl.bintray.com/grails/grails-core/" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url "https://repo.grails.org/grails/core" }
 }
 
 dependencies {
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-jackson-databind")
+    implementation("io.micronaut.beanvalidation:micronaut-hibernate-validator")
+    implementation("io.micronaut.email:micronaut-email-sendgrid")
     implementation("io.micronaut.graphql:micronaut-graphql")
+    implementation("io.micronaut.groovy:micronaut-hibernate-gorm")
     implementation("io.micronaut.groovy:micronaut-multitenancy-gorm")
     implementation("io.micronaut.groovy:micronaut-runtime-groovy")
     implementation("io.micronaut.multitenancy:micronaut-multitenancy")
@@ -24,10 +32,14 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
     compileOnly("io.micronaut:micronaut-http-validation")
     runtimeOnly("org.apache.logging.log4j:log4j-api:2.19.0")
-    runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:2.17.2")
+    runtimeOnly('org.apache.logging.log4j:log4j-slf4j-impl:2.19.0')
+    runtimeOnly("org.apache.tomcat:tomcat-jdbc")
     runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
     implementation("io.micronaut:micronaut-validation")
-
+    runtimeOnly("com.h2database:h2")
+    implementation("io.leangen.graphql:spqr:0.12.0")
+    implementation("org.grails:gorm-graphql:2.0.0")
+    implementation("org.grails:grails-core:5.2.5")
 }
 
 
@@ -46,9 +58,6 @@ micronaut {
     processing {
         incremental(true)
         annotations("com.togetherauction.*")
-    }
-    testResources {
-        additionalModules.add("jdbc-mariadb")
     }
 }
 

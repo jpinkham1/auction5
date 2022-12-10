@@ -1,10 +1,13 @@
 micronaut:
   application:
-    name: demo
+    name: auction5
 datasources:
   default:
     driverClassName: org.mariadb.jdbc.Driver
     db-type: mariadb
+    url: jdbc:mysql://localhost:3306
+    username: auction
+    password: robinworm
 netty:
   default:
     allocator:
