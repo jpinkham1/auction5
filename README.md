@@ -7,21 +7,33 @@
 ---
 
 - [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-## Feature test-resources documentation
+## Feature email-sendgrid documentation
 
-- [Micronaut Test Resources documentation](https://micronaut-projects.github.io/micronaut-test-resources/latest/guide/)
+- [Micronaut Sendgrid Email documentation](https://micronaut-projects.github.io/micronaut-email/latest/guide/index.html#sendgrid)
 
-
-## Feature multi-tenancy-gorm documentation
-
-- [Micronaut Multitenancy GORM documentation](https://docs.micronaut.io/latest/guide/index.html#multitenancyGorm)
-
-- [https://gorm.grails.org/latest/hibernate/manual/index.html#multiTenancy](https://gorm.grails.org/latest/hibernate/manual/index.html#multiTenancy)
+- [https://docs.sendgrid.com/for-developers](https://docs.sendgrid.com/for-developers)
 
 
-## Feature graphql documentation
+## Feature data-jdbc documentation
 
-- [Micronaut GraphQL documentation](https://micronaut-projects.github.io/micronaut-graphql/latest/guide/index.html)
+- [Micronaut Data JDBC documentation](https://micronaut-projects.github.io/micronaut-data/latest/guide/index.html#jdbc)
+
+
+## Feature security-jwt documentation
+
+- [Micronaut Security JWT documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html)
+
+
+## Feature views-thymeleaf documentation
+
+- [Micronaut Thymeleaf Views documentation](https://micronaut-projects.github.io/micronaut-views/latest/guide/index.html#thymeleaf)
+
+- [https://www.thymeleaf.org/](https://www.thymeleaf.org/)
+
+
+## Feature multi-tenancy documentation
+
+- [Micronaut Multitenancy documentation](https://docs.micronaut.io/latest/guide/index.html#multitenancy)
 
 
 ## Feature jdbc-hikari documentation
@@ -34,8 +46,8 @@
 - [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
 
 
-## Feature multi-tenancy documentation
+## Feature security-oauth2 documentation
 
-- [Micronaut Multitenancy documentation](https://docs.micronaut.io/latest/guide/index.html#multitenancy)
+- [Micronaut Security OAuth 2.0 documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html#oauth)
 
 

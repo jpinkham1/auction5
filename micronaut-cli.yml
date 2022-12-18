@@ -3,4 +3,4 @@ defaultPackage: com.togetherauction
 testFramework: spock
 sourceLanguage: groovy
 buildTool: gradle
-features: [annotation-api, app-name, gradle, graphql, groovy, groovy-application, http-client, jackson-databind, jdbc-hikari, log4j2, mariadb, micronaut-build, multi-tenancy, multi-tenancy-gorm, netty-server, readme, shade, spock, test-resources, yaml]
+features: [annotation-api, app-name, data, data-jdbc, email-sendgrid, email-template, gradle, groovy, groovy-application, http-client, jackson-databind, jdbc-hikari, netty-server, log4j2, mariadb, micronaut-build, multi-tenancy, readme, security-annotations, security-jwt, security-oauth2, shade, spock, views-thymeleaf, yaml]
