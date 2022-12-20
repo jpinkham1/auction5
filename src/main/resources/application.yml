@@ -7,7 +7,7 @@ micronaut:
       clients:
         google:
           client-id: 815821376525-tg39nstqsl4gutefm2nv4dm6rfquuik7.apps.googleusercontent.com
-          client-secret: ZKqq-96mjkFcTP_fuo40Yoo_
+          client-secret: not-the-real-secret
           openid:
             issuer: https://accounts.google.com
     endpoints:
